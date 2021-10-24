@@ -1,8 +1,7 @@
 # GoogleDork
 ---
 
-**Link**
-【HOW TO Use Google to Hack(Googledorks)](https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/)
+**Link:**【"HOW TO Use Google to Hack(Googledorks)"]("https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/")
 
 >  Google dork is an employee who unknowingly exposes sensitive corporate information on the Internet.
 
@@ -16,37 +15,26 @@ _As a passive attack method, Google dorking can return usernames and passwords, 
 **Terms**
 
 1. **intitle**: Specifying intitle, will tell google to show only those pages that have the term in their html title.
-
-Example: 
-
-> intitle:"login page"
-
-
-
-
-<br> 
-
 2. **allintitle**: looks for all the specified terms in the title.
-
-Example: 
-
-> allintitle:"login page"
-
-<br> 
-
-
 3. **inurl**: specified term in the url
+4. **allinurl**: but searches for all terms in the url.
+5. **filetype**: Searches for specific file types.
+6. **ext**: Similar to filetype
+7. **intext**: Searches the content of the page. Somewhat like a plain google search.
+8. **allintext**: searches for all terms to be present in the text.
+9. **site**: Limits the search to a specific site only
+10. **Define**: Google will define this massage and will look for what had this error for example,
+
+## What should you type in Google? 
 
 
-Example: 
+```
+intitle:"login page"
+```
 
-> inurl:"login.php"
-> inurl:index.php?id=
-
-<br> 
-
-A list of other words instead of inurl 
-
+allintitle:"login page"
+inurl:"login.php"
+inurl:index.php?id=
 a. intitle:
 b. inurl:
 c. intext:
@@ -62,81 +50,18 @@ l. weather:
 m. related:
 n. link:
 
+allinurl:"login.php"
+filetype:pdf
+ext:pdf 
+intext:"index of /".
+allintext:"index of /".
+site:nullbyte.com
+define:"sql syntax error"
+
+```
 
 
-
-4. **allinurl**: but searches for all terms in the url.
-
-Example: 
-
-> allinurl:"login.php"
-
-<br> 
-
-
-5. **filetype**: Searches for specific file types.
-
-
-Example: 
-
-> filetype:pdf
-
-<br> 
-
-
-6. **ext**: Similar to filetype
-
-
-Example: 
-
-> ext:pdf 
-
-<br> 
-
-
-
-
-7. **intext**: Searches the content of the page. Somewhat like a plain google search.
-
-Example: 
-
-> intext:"index of /".
-
-<br> 
-
-
-8. **allintext**: searches for all terms to be present in the text.
-
-
-Example: 
-
-> allintext:"index of /".
-
-<br> 
-
-
-
-9. **site**: Limits the search to a specific site only
-
-
-Example: 
-
-> site:nullbyte.com
-
-<br> 
-
-
-10. **Define**: Google will define this massage and will look for what had this error for example,
-
-Example: 
-
-> define:"sql syntax error"
-
-<br> 
-
-
-
-Some techniques when using Google Dorks 
+## Some techniques when using Google Dorks 
 
 
 **1. Thank You For Your Order**
@@ -145,19 +70,27 @@ Some techniques when using Google Dorks
 
 These are some Google Dorks which can affect our online business:
 
-> 1. site:.com intitle:"Thank You For Your Order" intext:Click Here to Download
-<br>
+```
+site:.com intitle:"Thank You For Your Order" intext:Click Here to Download
+```
 
-> 2. site:.com intitle:"Thank You For Your Purchase" intext:Click Here to Download
+**OR**
 
-<br>
+```
+site:.com intitle:"Thank You For Your Purchase" intext:Click Here to Download
+```
 
-> 3. intitle:Thank you for your Purchase! intext:PLR OR MRR OR Package OR Bonus
+**OR**
 
-<br>
+```
+intitle:Thank you for your Purchase! intext:PLR OR MRR OR Package OR Bonus
+```
 
-> 4. inurl:/thankyou.html intitle:Thank you for your order! intext:Click Here to Download
+**OR**
 
+```
+inurl:/thankyou.html intitle:Thank you for your order! intext:Click Here to Download
+```
 <br>
 
 
@@ -167,8 +100,9 @@ Once you search website using above dorks, now its time to check whether the web
 
 So our site will look like this,
 
-
-> http://www.site.com/index.php?id=123;
+```
+http://www.site.com/index.php?id=123;
+```
 
 
 ## Website links
