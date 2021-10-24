@@ -1,9 +1,9 @@
 # GoogleDork
 ---
 
-**Link:** [HOW TO Use Google to Hack(Googledorks)]("https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/")
+**Link:** [HOW TO Use Google to Hack(Googledorks)](https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/)
 
->  Google dork is an employee who unknowingly exposes sensitive corporate information on the Internet.
+> **Google dork** is an employee who unknowingly exposes sensitive corporate information on the Internet.
 
 The concept of "Google Hacking" dates back to 2002, when Johnny Long began to **collect interesting Google search queries that uncovered vulnerable systems and/or sensitive information disclosures** - labeling them googleDorks. some people call it **googlehacking.**
 
