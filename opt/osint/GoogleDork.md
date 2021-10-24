@@ -32,9 +32,19 @@ _As a passive attack method, Google dorking can return usernames and passwords, 
 intitle:"login page"
 ```
 
+```
 allintitle:"login page"
+```
+
+```
 inurl:"login.php"
+```
+
+```
 inurl:index.php?id=
+```
+
+```
 a. intitle:
 b. inurl:
 c. intext:
@@ -49,16 +59,36 @@ k. movie:
 l. weather:
 m. related:
 n. link:
-
-allinurl:"login.php"
-filetype:pdf
-ext:pdf 
-intext:"index of /".
-allintext:"index of /".
-site:nullbyte.com
-define:"sql syntax error"
+```
 
 ```
+allinurl:"login.php"
+```
+
+```
+filetype:pdf
+```
+
+```
+ext:pdf 
+```
+
+```
+intext:"index of /".
+```
+
+```
+allintext:"index of /".
+```
+
+```
+site:nullbyte.com
+```
+
+```
+define:"sql syntax error"
+```
+
 
 
 ## Some techniques when using Google Dorks 
@@ -74,24 +104,18 @@ These are some Google Dorks which can affect our online business:
 site:.com intitle:"Thank You For Your Order" intext:Click Here to Download
 ```
 
-**OR**
-
 ```
 site:.com intitle:"Thank You For Your Purchase" intext:Click Here to Download
 ```
-
-**OR**
 
 ```
 intitle:Thank you for your Purchase! intext:PLR OR MRR OR Package OR Bonus
 ```
 
-**OR**
 
 ```
 inurl:/thankyou.html intitle:Thank you for your order! intext:Click Here to Download
 ```
-<br>
 
 
 **2. Vulnerability Approach**
