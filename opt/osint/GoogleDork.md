@@ -89,6 +89,37 @@ site:nullbyte.com
 define:"sql syntax error"
 ```
 
+```
+link:index.php?id=
+```
+
+```
+related:hacking
+```
+
+```
+weather: 01/08/2015 london
+```
+
+```
+movie:watch Transformers online
+```
+
+```
+info:firefox
+```
+
+```
+book:java language
+```
+
+```
+phonebook:Mrnakupenda
+```
+
+```
+site:wonderhowto.com
+```
 
 
 ## Some techniques when using Google Dorks 
@@ -116,6 +147,7 @@ intitle:Thank you for your Purchase! intext:PLR OR MRR OR Package OR Bonus
 ```
 inurl:/thankyou.html intitle:Thank you for your order! intext:Click Here to Download
 ```
+
 
 
 **2. Vulnerability Approach**
