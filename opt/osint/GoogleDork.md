@@ -1,7 +1,7 @@
 # GoogleDork
 ---
 
-**Link:**【"HOW TO Use Google to Hack(Googledorks)"]("https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/")
+**Link:** [HOW TO Use Google to Hack(Googledorks)]("https://null-byte.wonderhowto.com/how-to/use-google-hack-googledorks-0163566/")
 
 >  Google dork is an employee who unknowingly exposes sensitive corporate information on the Internet.
 
