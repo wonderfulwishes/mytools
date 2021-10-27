@@ -166,7 +166,7 @@ Nmap is a free and open-source network scanner &  Nmap is used to discover hosts
 
   
 
-## Common Usage of nmap commands I used**
+## Common Usage of nmap commands I used
 
 ```
 nmap <ip add>
