@@ -168,6 +168,11 @@ Nmap is a free and open-source network scanner &  Nmap is used to discover hosts
 
 ## Common Usage of nmap commands I used
 
+
 ```
-nmap <ip add>
+nmap 192.168.1.1 : Scan a single IP
+nmap 192.168.1.1-254 : Scan a range
+nmap -iL targets.txt :Scan targets from a file
+
+
 ```
