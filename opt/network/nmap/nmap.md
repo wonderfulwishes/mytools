@@ -22,7 +22,7 @@ Nmap is a free and open-source network scanner &  Nmap is used to discover hosts
 
 
 
-What are the techniques when using nmap?
+## What are the techniques when using nmap?
 
 
 **Target Specification**
@@ -165,7 +165,7 @@ What are the techniques when using nmap?
 
   
 
-**Common Usage of nmap commands I used**
+## Common Usage of nmap commands I used**
 
 ```
 nmap <ip add>
