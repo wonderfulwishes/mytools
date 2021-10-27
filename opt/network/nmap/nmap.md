@@ -188,3 +188,54 @@ nmap 192.168.1.1/24 -sn
 nmap 192.168.1.1-5 -Pn
 ```
 
+**Port Specification**
+
+```
+nmap 192.168.1.1 -p 21-100
+nmap 192.168.1.1 --top-ports 2000
+nmap 192.168.1.1 -p-65535
+nmap 192.168.1.1 -p0-
+```
+
+
+**Service and Version Detection**
+
+```
+nmap 192.168.1.1 -sV
+nmap 192.168.1.1 -sV --version-intensity 8
+nmap 192.168.1.1 -A
+```
+
+**OS Detection**
+
+```
+nmap 192.168.1.1 -O
+nmap 192.168.1.1 -O --osscan-guess
+nmap 192.168.1.1 -A
+```
+
+**Timing and Performance**
+
+```
+nmap 192.168.1.1 -T0
+```
+
+**NSE Scripts**
+
+```
+nmap 192.168.1.1 -sC
+nmap -Pn --script=dns-brute domain.com
+nmap --script whois* domain.com
+```
+
+**Firewall / IDS Evasion and Spoofing**
+
+```
+nmap -f -t 0 -n -Pn –data-length 200 -D 192.168.1.101,192.168.1.102,192.168.1.103,192.168.1.23 192.168.1.1
+```
+
+**Output**
+
+```
+nmap -p80 -sV -oG - --open 192.168.1.1/24 | grep open
+```
