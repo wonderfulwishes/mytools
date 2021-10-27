@@ -5,6 +5,7 @@ Nmap is a free and open-source network scanner &  Nmap is used to discover hosts
 
 [Nmap-cheat-sheet](https://www.stationx.net/nmap-cheat-sheet/)
 
+## Overall techniques
 
 1. **Target Specification**
 2. **Scan Techniques**
